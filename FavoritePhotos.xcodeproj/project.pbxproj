@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADB21DA818E9F2700013A822 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB21DA718E9F2700013A822 /* Foundation.framework */; };
+		ADB21DAA18E9F2700013A822 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB21DA918E9F2700013A822 /* CoreGraphics.framework */; };
+		ADB21DAC18E9F2700013A822 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB21DAB18E9F2700013A822 /* UIKit.framework */; };
+		ADB21DB218E9F2700013A822 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADB21DB018E9F2700013A822 /* InfoPlist.strings */; };
+		ADB21DB418E9F2700013A822 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB21DB318E9F2700013A822 /* main.m */; };
+		ADB21DB818E9F2700013A822 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB21DB718E9F2700013A822 /* AppDelegate.m */; };
+		ADB21DBB18E9F2700013A822 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB21DB918E9F2700013A822 /* Main.storyboard */; };
+		ADB21DBE18E9F2700013A822 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB21DBD18E9F2700013A822 /* SearchViewController.m */; };
+		ADB21DC018E9F2700013A822 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADB21DBF18E9F2700013A822 /* Images.xcassets */; };
+		ADB21DC718E9F2700013A822 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB21DC618E9F2700013A822 /* XCTest.framework */; };
+		ADB21DC818E9F2700013A822 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB21DA718E9F2700013A822 /* Foundation.framework */; };
+		ADB21DC918E9F2700013A822 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB21DAB18E9F2700013A822 /* UIKit.framework */; };
+		ADB21DD118E9F2700013A822 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADB21DCF18E9F2700013A822 /* InfoPlist.strings */; };
+		ADB21DD318E9F2700013A822 /* FavoritePhotosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB21DD218E9F2700013A822 /* FavoritePhotosTests.m */; };
+		ADB21DDE18E9F3C10013A822 /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB21DDD18E9F3C10013A822 /* FavoritesViewController.m */; };
+		ADB21DE118E9F7E20013A822 /* SearchCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB21DE018E9F7E20013A822 /* SearchCollectionViewCell.m */; };
+		ADB21DE418EA2E8C0013A822 /* ProjectTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB21DE318EA2E8C0013A822 /* ProjectTabBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADB21DCA18E9F2700013A822 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADB21D9C18E9F2700013A822 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADB21DA318E9F2700013A822;
+			remoteInfo = FavoritePhotos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADB21DA418E9F2700013A822 /* FavoritePhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavoritePhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB21DA718E9F2700013A822 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ADB21DA918E9F2700013A822 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ADB21DAB18E9F2700013A822 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ADB21DAF18E9F2700013A822 /* FavoritePhotos-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FavoritePhotos-Info.plist"; sourceTree = "<group>"; };
+		ADB21DB118E9F2700013A822 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADB21DB318E9F2700013A822 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADB21DB518E9F2700013A822 /* FavoritePhotos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FavoritePhotos-Prefix.pch"; sourceTree = "<group>"; };
+		ADB21DB618E9F2700013A822 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADB21DB718E9F2700013A822 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADB21DBA18E9F2700013A822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADB21DBC18E9F2700013A822 /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		ADB21DBD18E9F2700013A822 /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		ADB21DBF18E9F2700013A822 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ADB21DC518E9F2700013A822 /* FavoritePhotosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FavoritePhotosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB21DC618E9F2700013A822 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ADB21DCE18E9F2700013A822 /* FavoritePhotosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FavoritePhotosTests-Info.plist"; sourceTree = "<group>"; };
+		ADB21DD018E9F2700013A822 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADB21DD218E9F2700013A822 /* FavoritePhotosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavoritePhotosTests.m; sourceTree = "<group>"; };
+		ADB21DDC18E9F3C10013A822 /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
+		ADB21DDD18E9F3C10013A822 /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
+		ADB21DDF18E9F7E20013A822 /* SearchCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchCollectionViewCell.h; sourceTree = "<group>"; };
+		ADB21DE018E9F7E20013A822 /* SearchCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchCollectionViewCell.m; sourceTree = "<group>"; };
+		ADB21DE218EA2E8C0013A822 /* ProjectTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectTabBarController.h; sourceTree = "<group>"; };
+		ADB21DE318EA2E8C0013A822 /* ProjectTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectTabBarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADB21DA118E9F2700013A822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB21DAA18E9F2700013A822 /* CoreGraphics.framework in Frameworks */,
+				ADB21DAC18E9F2700013A822 /* UIKit.framework in Frameworks */,
+				ADB21DA818E9F2700013A822 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB21DC218E9F2700013A822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB21DC718E9F2700013A822 /* XCTest.framework in Frameworks */,
+				ADB21DC918E9F2700013A822 /* UIKit.framework in Frameworks */,
+				ADB21DC818E9F2700013A822 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADB21D9B18E9F2700013A822 = {
+			isa = PBXGroup;
+			children = (
+				ADB21DAD18E9F2700013A822 /* FavoritePhotos */,
+				ADB21DCC18E9F2700013A822 /* FavoritePhotosTests */,
+				ADB21DA618E9F2700013A822 /* Frameworks */,
+				ADB21DA518E9F2700013A822 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADB21DA518E9F2700013A822 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADB21DA418E9F2700013A822 /* FavoritePhotos.app */,
+				ADB21DC518E9F2700013A822 /* FavoritePhotosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADB21DA618E9F2700013A822 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADB21DA718E9F2700013A822 /* Foundation.framework */,
+				ADB21DA918E9F2700013A822 /* CoreGraphics.framework */,
+				ADB21DAB18E9F2700013A822 /* UIKit.framework */,
+				ADB21DC618E9F2700013A822 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADB21DAD18E9F2700013A822 /* FavoritePhotos */ = {
+			isa = PBXGroup;
+			children = (
+				ADB21DB618E9F2700013A822 /* AppDelegate.h */,
+				ADB21DB718E9F2700013A822 /* AppDelegate.m */,
+				ADB21DB918E9F2700013A822 /* Main.storyboard */,
+				ADB21DBC18E9F2700013A822 /* SearchViewController.h */,
+				ADB21DBD18E9F2700013A822 /* SearchViewController.m */,
+				ADB21DDC18E9F3C10013A822 /* FavoritesViewController.h */,
+				ADB21DDD18E9F3C10013A822 /* FavoritesViewController.m */,
+				ADB21DDF18E9F7E20013A822 /* SearchCollectionViewCell.h */,
+				ADB21DE018E9F7E20013A822 /* SearchCollectionViewCell.m */,
+				ADB21DE218EA2E8C0013A822 /* ProjectTabBarController.h */,
+				ADB21DE318EA2E8C0013A822 /* ProjectTabBarController.m */,
+				ADB21DBF18E9F2700013A822 /* Images.xcassets */,
+				ADB21DAE18E9F2700013A822 /* Supporting Files */,
+			);
+			path = FavoritePhotos;
+			sourceTree = "<group>";
+		};
+		ADB21DAE18E9F2700013A822 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADB21DAF18E9F2700013A822 /* FavoritePhotos-Info.plist */,
+				ADB21DB018E9F2700013A822 /* InfoPlist.strings */,
+				ADB21DB318E9F2700013A822 /* main.m */,
+				ADB21DB518E9F2700013A822 /* FavoritePhotos-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADB21DCC18E9F2700013A822 /* FavoritePhotosTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADB21DD218E9F2700013A822 /* FavoritePhotosTests.m */,
+				ADB21DCD18E9F2700013A822 /* Supporting Files */,
+			);
+			path = FavoritePhotosTests;
+			sourceTree = "<group>";
+		};
+		ADB21DCD18E9F2700013A822 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADB21DCE18E9F2700013A822 /* FavoritePhotosTests-Info.plist */,
+				ADB21DCF18E9F2700013A822 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADB21DA318E9F2700013A822 /* FavoritePhotos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADB21DD618E9F2700013A822 /* Build configuration list for PBXNativeTarget "FavoritePhotos" */;
+			buildPhases = (
+				ADB21DA018E9F2700013A822 /* Sources */,
+				ADB21DA118E9F2700013A822 /* Frameworks */,
+				ADB21DA218E9F2700013A822 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FavoritePhotos;
+			productName = FavoritePhotos;
+			productReference = ADB21DA418E9F2700013A822 /* FavoritePhotos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADB21DC418E9F2700013A822 /* FavoritePhotosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADB21DD918E9F2700013A822 /* Build configuration list for PBXNativeTarget "FavoritePhotosTests" */;
+			buildPhases = (
+				ADB21DC118E9F2700013A822 /* Sources */,
+				ADB21DC218E9F2700013A822 /* Frameworks */,
+				ADB21DC318E9F2700013A822 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADB21DCB18E9F2700013A822 /* PBXTargetDependency */,
+			);
+			name = FavoritePhotosTests;
+			productName = FavoritePhotosTests;
+			productReference = ADB21DC518E9F2700013A822 /* FavoritePhotosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADB21D9C18E9F2700013A822 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Calvin Hildreth";
+				TargetAttributes = {
+					ADB21DC418E9F2700013A822 = {
+						TestTargetID = ADB21DA318E9F2700013A822;
+					};
+				};
+			};
+			buildConfigurationList = ADB21D9F18E9F2700013A822 /* Build configuration list for PBXProject "FavoritePhotos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADB21D9B18E9F2700013A822;
+			productRefGroup = ADB21DA518E9F2700013A822 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADB21DA318E9F2700013A822 /* FavoritePhotos */,
+				ADB21DC418E9F2700013A822 /* FavoritePhotosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADB21DA218E9F2700013A822 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB21DC018E9F2700013A822 /* Images.xcassets in Resources */,
+				ADB21DB218E9F2700013A822 /* InfoPlist.strings in Resources */,
+				ADB21DBB18E9F2700013A822 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB21DC318E9F2700013A822 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB21DD118E9F2700013A822 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADB21DA018E9F2700013A822 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB21DBE18E9F2700013A822 /* SearchViewController.m in Sources */,
+				ADB21DE418EA2E8C0013A822 /* ProjectTabBarController.m in Sources */,
+				ADB21DB818E9F2700013A822 /* AppDelegate.m in Sources */,
+				ADB21DE118E9F7E20013A822 /* SearchCollectionViewCell.m in Sources */,
+				ADB21DDE18E9F3C10013A822 /* FavoritesViewController.m in Sources */,
+				ADB21DB418E9F2700013A822 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB21DC118E9F2700013A822 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB21DD318E9F2700013A822 /* FavoritePhotosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADB21DCB18E9F2700013A822 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADB21DA318E9F2700013A822 /* FavoritePhotos */;
+			targetProxy = ADB21DCA18E9F2700013A822 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADB21DB018E9F2700013A822 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADB21DB118E9F2700013A822 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ADB21DB918E9F2700013A822 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADB21DBA18E9F2700013A822 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADB21DCF18E9F2700013A822 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADB21DD018E9F2700013A822 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADB21DD418E9F2700013A822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ADB21DD518E9F2700013A822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADB21DD718E9F2700013A822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FavoritePhotos/FavoritePhotos-Prefix.pch";
+				INFOPLIST_FILE = "FavoritePhotos/FavoritePhotos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ADB21DD818E9F2700013A822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FavoritePhotos/FavoritePhotos-Prefix.pch";
+				INFOPLIST_FILE = "FavoritePhotos/FavoritePhotos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ADB21DDA18E9F2700013A822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FavoritePhotos.app/FavoritePhotos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FavoritePhotos/FavoritePhotos-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FavoritePhotosTests/FavoritePhotosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ADB21DDB18E9F2700013A822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FavoritePhotos.app/FavoritePhotos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FavoritePhotos/FavoritePhotos-Prefix.pch";
+				INFOPLIST_FILE = "FavoritePhotosTests/FavoritePhotosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADB21D9F18E9F2700013A822 /* Build configuration list for PBXProject "FavoritePhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB21DD418E9F2700013A822 /* Debug */,
+				ADB21DD518E9F2700013A822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADB21DD618E9F2700013A822 /* Build configuration list for PBXNativeTarget "FavoritePhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB21DD718E9F2700013A822 /* Debug */,
+				ADB21DD818E9F2700013A822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADB21DD918E9F2700013A822 /* Build configuration list for PBXNativeTarget "FavoritePhotosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB21DDA18E9F2700013A822 /* Debug */,
+				ADB21DDB18E9F2700013A822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADB21D9C18E9F2700013A822 /* Project object */;
+}
